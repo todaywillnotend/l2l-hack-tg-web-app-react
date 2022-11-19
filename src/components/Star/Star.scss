@@ -1,0 +1,19 @@
+.star {
+  polygon {
+    fill-rule: nonzero;
+  }
+
+  &__img {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+
+    &_filled {
+      fill: #edb10b;
+    }
+  
+    &_blank {
+      fill: #333333;
+    }
+  }
+}

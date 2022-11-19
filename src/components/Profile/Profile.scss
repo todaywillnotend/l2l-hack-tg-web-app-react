@@ -1,0 +1,50 @@
+.profile {
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    background: #ffffff;
+    border: 1px solid darken(#ffffff, 10%);
+    padding: 10px;
+    width: 100vw;
+    max-width: 425px;
+    box-sizing: border-box;
+    margin: 10px 0;
+
+    &__text {
+      margin-left: 20px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__name {
+      color: #658585;
+      font-size: 24px;
+      font-family: "Coda", sans-serif;
+      font-weight: bold;
+    }
+
+    &__username {
+      color: #e76043;
+      font-size: 0.87em;
+      font-family: "varela round", sans-serif;
+    }
+
+    &__country,
+	&__city,
+	&__description {
+      color: #333333;
+      font-size: 14px;
+      font-family: "varela round", sans-serif;
+      margin-top: 5px;
+    }
+
+    &__avatar {
+      border-radius: 50%;
+      width: 100px;
+    }
+
+    &__rate {
+      margin-top: 10px;
+    }
+  }
